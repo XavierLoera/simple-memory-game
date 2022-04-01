@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="icon" href="https://glitch.com/favicon.ico" />
+    <title>Hello world!</title>
+    <link rel="stylesheet" href="/style.css" />
+    <script src="/script.js" defer></script>
+  </head>
+  
+  <body>
+    <h1>Light and Sound Memory Game</h1>
+    <p>
+      Welcome to the game! Repeat back the pattern by pressing buttons.
+    </p>
+    
+    <button id="startBtn" onclick="startGame()">Start </button>
+    <button id="stopBtn" class="hidden" onclick="stopGame()">Stop </button>
+    <div id="gameInfo">
+      <p id="timer" class="hidden">Time: 20</p>
+      <p id="levels" class="hidden" > Level: 1</p>
+      <p id="lives" class="hidden"> Lives: 3</p>
+    </div>
+    <audio src="https://cdn.glitch.global/e375d434-8518-440d-a17b-e31d909cec79/click.mp3?v=1648849213031" id="clickAudio"></audio>
+    <audio src="https://cdn.glitch.global/e375d434-8518-440d-a17b-e31d909cec79/wrongClick.mp3?v=1648849213031" id="wrongClickAudio"></audio>
+    <audio src="https://cdn.glitch.global/e375d434-8518-440d-a17b-e31d909cec79/gameOver.mp3?v=1648849213031" id="gameOver"></audio>
+    <audio src="https://cdn.glitch.global/e375d434-8518-440d-a17b-e31d909cec79/gameWin.mp3?v=1648850447900" id="gameWon" ></audio>
+    <div id="gameButtonArea">  
+      <button id="button1" class = "hiddenImage" onclick="guess(1)" onmousedown="playClick(1);showImage(1);" onmouseup="hideImage(1);" style="background-image: url('https://cdn.glitch.global/e375d434-8518-440d-a17b-e31d909cec79/greenapples.jpg?v=1648781831251'); background-size: 100% 100%;"></button>
+      <button id="button2" class = "hiddenImage" onclick="guess(2)" onmousedown="playClick(2);showImage(2);" onmouseup="hideImage(2);" style="background-image: url('https://cdn.glitch.global/e375d434-8518-440d-a17b-e31d909cec79/blueberry.jfif?v=1648781819050'); background-size: 100% 100%;"></button>
+      <button id="button3" class = "hiddenImage" onclick="guess(3)" onmousedown="playClick(3);showImage(3);" onmouseup="hideImage(3);" style="background-image: url('https://cdn.glitch.global/e375d434-8518-440d-a17b-e31d909cec79/apples.jfif?v=1648781809698'); background-size: 100% 100%;"></button>
+      <button id="button4" class = "hiddenImage"onclick="guess(4)" onmousedown="playClick(4);showImage(4);" onmouseup="hideImage(4);" style="background-image: url('https://cdn.glitch.global/e375d434-8518-440d-a17b-e31d909cec79/banna.jfif?v=1648781815846'); background-size: 100% 100%;"></button>
+      <button id="button5" class = "hiddenImage" onclick="guess(5)" onmousedown="playClick(5);showImage(5);" onmouseup="hideImage(5);" style="background-image: url('https://cdn.glitch.global/e375d434-8518-440d-a17b-e31d909cec79/eggpants.jpg?v=1648781823221'); background-size: 100% 100%;"></button>
+      <button id="button6" class = "hiddenImage" onclick="guess(6)" onmousedown="playClick(6);showImage(6);" onmouseup="hideImage(6);" style="background-image: url('https://cdn.glitch.global/e375d434-8518-440d-a17b-e31d909cec79/oranges.jfif?v=1648781834347'); background-size: 100% 100%;"></button>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,88 @@
+body {
+  font-family: helvetica, arial, sans-serif;
+  margin: 2em;
+  background-color: slategrey;
+  color:white;
+}
+#gameInfo {
+  font-size:30px;
+  font-family: ;
+  color: white;
+  display:flex;
+  justify-content:space-around;
+}
+h1 {
+  font-style: bold;
+  color: white;
+  font-family: helvetica, arial, sans-serif;
+}
+p {
+  font-style: bold;
+  color: white;
+  font-family: helvetica, arial, sans-serif;
+}
+button {
+  padding: 10px;
+  border: 2px solid grey;
+}
+#startBtn {
+  border-radius: 50px;
+  background-color: lightgreen;
+}
+#stopBtn {
+  border-radius: 50px;
+  background-color: pink;
+}
+#gameButtonArea > button {
+  width:200px;
+  height:200px;
+  margin:10px;
+}
+.hidden {
+  display: none;
+}
+.hiddenImage {
+  background-image: none !important;
+}
+#button1 {
+    border-radius: 100%;
+    background: lightgreen;
+}
+#button1:active, #button1.lit {
+    background:green;
+}
+#button2 {
+    border-radius: 45px;
+    background: lightblue;
+}
+#button2:active, #button2.lit {
+    background:blue;
+}
+#button3 {
+  border-radius: 100%;
+  background: pink;
+}
+#button3:active, #button3.lit {
+  background:red;
+}
+#button4 {
+  border-radius: 45px;
+  background: lightyellow;
+}
+#button4:active, #button4.lit {
+  background:yellow;
+}
+#button5 {
+  border-radius: 100%;
+  background: violet;
+}
+#button5:active, #button5.lit {
+  background:purple;
+}
+#button6 {
+  border-radius: 45px;
+  background: #FFCAA0;
+}
+#button6:active, #button6.lit {
+  background: darkorange;
+}
