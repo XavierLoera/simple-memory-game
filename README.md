@@ -44,7 +44,7 @@ The following **additional** features are implemented:
 
 If you recorded multiple GIFs for all the implemented features, you can add them here:
 ![x](https://media.giphy.com/media/yQGAtdftZcD5AHgOle/giphy.gif)
-![x]https://media.giphy.com/media/51sw0EjipCaj6rShsU/giphy.gif)
+![x](https://media.giphy.com/media/51sw0EjipCaj6rShsU/giphy.gif)
 ![x](https://media.giphy.com/media/sbNCnD1KwtziT67aKv/giphy.gif)
 
 
