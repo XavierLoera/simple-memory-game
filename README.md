@@ -74,7 +74,7 @@ There are a lot of things that I would have loved to impement into the game and 
 
 ## Interview Recording URL Link
 
-[My 5-minute Interview Recording]() [comment]: <> (https://www.kapwing.com/videos/6247d4c4cace9c0067208311)
+[My 5-minute Interview Recording]() <!--- (https://www.kapwing.com/videos/6247d4c4cace9c0067208311) -->
 
 
 ## License
